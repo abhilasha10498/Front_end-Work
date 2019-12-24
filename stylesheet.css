@@ -1,0 +1,130 @@
+
+
+
+body{
+    width: 100%;
+    height: 100%;
+
+}
+.navbar{
+font-size: small;
+}
+div.first{
+    width: 100%;
+    height: 100%;
+    background-image: url("/image/firstbackground.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size:2100px;
+    padding-left: 100px;
+    padding-top: 110px;
+}
+
+.text-white {
+    color: #fff !important;
+}
+.y-text {
+    color:rgb(255, 165, 0);
+}
+
+div.px-3.py-3.card.text-white
+{
+
+    background: rgba(128,128,128, .2); 
+    
+}
+
+div.second {
+
+    padding:  70px 100px 20px;
+    background-color:white;
+}
+ h3.one{
+     padding-top: 270px;
+     font-weight: bold;
+ }
+ div.third {
+
+    padding:  70px 140px;
+    background-color:white;
+}
+div.four {
+
+    padding:  70px 100px 20px;
+    background-color:white;
+}
+div.five{
+    
+    padding:  70px 100px 20px;
+    background-color:white;
+}
+div.udtBreak {
+    width: 1px;
+    background: silver;
+}
+div.six{
+    
+    padding:  70px 100px 20px;
+    background-color:white;
+}
+
+.carousel-indicators li {
+    width: 10px!important;
+    height: 10px!important;
+    border-radius: 50%;
+    color: #000;
+    background-color: royalBlue;
+    
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-image: none;
+    margin-bottom: 70px !important;
+    margin-left: 50px;
+    
+  }
+  .carousel-control-prev-icon{
+    margin-right: 145px;
+  }
+  .carousel-control-next-icon {
+margin-left: 1px;
+}
+
+
+  .carousel-control-next-icon:after
+  {
+    content: '>';
+    font-size: 55px;
+    color:royalblue ;
+  
+  }
+  
+  .carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color:royalblue ;
+  }
+  .carousel-indicators {
+    bottom:-70px;
+    left: -200px;
+  }
+  .son1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0),
+     rgba(0, 0, 0, 1)), url("/image/beach.jpg");
+     background-size: cover;
+     background-position: center;
+  }
+  .son2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0),
+     rgba(0, 0, 0, 1)), url("/image/mountain.jpg");
+     background-size: cover;
+     background-position: center;
+  }
+  .son3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0),
+     rgba(0, 0, 0, 1)), url("/image/tokyo.jpg");
+     background-size: cover;
+     background-position: center;
+  }
+  
